@@ -15,6 +15,7 @@
     "@supertiger/vue-3-virtual-scroll-list": "^1.0.8",
     "@vue/compiler-sfc": "^3.2.11",
     "base64-arraybuffer": "^0.1.4",
+    "caniuse-lite": "^1.0.30001497",
     "codemirror-editor-vue3": "^0.2.4",
     "core-js": "^3.6.5",
     "doodlepad": "^4.0.2",
@@ -56,7 +57,6 @@
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
     "@vue/cli-plugin-babel": "~4.5.15",
-    "@vue/cli-plugin-eslint": "~4.5.15",
     "@vue/cli-plugin-pwa": "~4.5.15",
     "@vue/cli-plugin-router": "~4.5.15",
     "@vue/cli-plugin-typescript": "~4.5.15",
@@ -67,34 +67,12 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.0.0",
+    "node": "^16.20.0",
     "prettier": "^2.2.1",
     "sass": "^1.32.8",
     "sass-loader": "^8.0.2",
     "typescript": "4.1.6",
     "vue-cli-plugin-i18n": "~2.3.1"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended",
-      "@vue/typescript/recommended",
-      "@vue/prettier",
-      "@vue/prettier/@typescript-eslint"
-    ],
-    "parserOptions": {
-      "ecmaVersion": 2020
-    },
-    "rules": {
-      "@typescript-eslint/camelcase": "off",
-      "@typescript-eslint/no-explicit-any": "off",
-      "@typescript-eslint/no-var-requires": 0,
-      "@typescript-eslint/no-use-before-define": "warn",
-      "@typescript-eslint/explicit-module-boundary-types": "off"
-    }
   },
   "browserslist": [
     "> 1%",
